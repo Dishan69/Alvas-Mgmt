@@ -1,0 +1,103 @@
+
+.header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 05px;
+    text-align:center;
+    position: relative;
+    height: 15%;
+    margin-left:200px;
+}
+.footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align:center;
+    position: relative;
+    height: 15%;
+    margin-left:200px;
+}
+.logout-button {
+    position: absolute;
+    top:20px;
+    right:20px;
+    padding:10px 20px;
+    background-color: black;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+.logout-button :hover{
+
+    background-color: grey;
+  
+}
+.sidebar{
+    height: 100%;
+    width:300px;
+    position: fixed;
+    z-index:1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top:20px;
+}
+.sidebar img{
+    width:100%;
+    margin-bottom:0px;
+}
+.sidebar a{
+   padding: 6px 8px 6px 16px;
+   text-decoration: none;
+   font-size:25px;
+   color:#818181;
+   display:block;
+}
+.sidebar a hover{
+  margin-left:20px;
+  padding: 0px 10px ;
+  height: 470px;
+}
+
+.dashboard {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 05px;
+    position: relative;
+    height: 100%;
+    margin-left:200px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .body{
+    background-image: url("image/b2.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+
+  }
